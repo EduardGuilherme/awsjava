@@ -11,10 +11,5 @@ public class JavaAwsApplication {
 		SpringApplication.run(JavaAwsApplication.class, args);
 		System.out.println("ok");
 	}
-	@GetMapping
-	public String response(){
-		System.out.println("ok");
-		return "ok";
-	}
 
 }
